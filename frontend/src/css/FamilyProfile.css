@@ -1,0 +1,42 @@
+
+.registrationDate{
+    font-size: 60%;
+    vertical-align: baseline;
+
+
+}
+
+.registrationDate2{
+    font-size: 50%;
+    color: lightslategrey;
+}
+
+.adminID{
+    font-size: 60%;
+}
+.adminID2{
+    font-size: 50%;
+    color: lightslategrey;
+}
+
+.entity-list-row{
+    text-align: left;
+    align-content: space-between;
+
+}
+.profileFamily{
+    display: flex;
+    width: 350px;
+    background-color: white;
+    padding: 15px;
+    text-align: left;
+}
+.family-table-row{
+    display: inline-block;
+    width: 160px;
+}
+
+.family-table-row2{
+    display: inline-block;
+    width: 160px;
+}

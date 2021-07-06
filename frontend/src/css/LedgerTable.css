@@ -1,0 +1,54 @@
+.ledger-title {
+    width: 80%;
+    font-size: 1.8rem;
+    margin-left: 40px;
+    margin-top: -15px;
+    color: #2f5d62;
+}
+
+.ledger-title-family{
+    width: 80%;
+    font-size: 1.8rem;
+    margin-top: -15px;
+    margin-left: 40px;
+    color: #2f5d62;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    color: rgba(50, 50, 50);
+    width: 90%;
+
+}
+
+.col-1 {
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 40px;
+    flex-basis: 48%;
+    font-family: Verdana;
+    font-weight: bold;
+    vertical-align: middle;
+    display: table-cell;
+}
+.col-2-profile {
+    padding-top: 10px;
+    flex-basis: 40%;
+    float: left;
+    font-family: Verdana;
+    width: 100%;
+    flex-grow: 1;
+
+}
+
+.table-row {
+    background-color: #ffffff;
+    width: 300px;
+}
+
+.container li {
+    border-radius: 10px;
+    margin: 15px 0 15px 0;
+    display: flex;
+}

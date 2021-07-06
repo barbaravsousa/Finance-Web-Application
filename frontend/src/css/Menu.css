@@ -1,0 +1,69 @@
+/* settings of menu bar except logout icon */
+.topnav {
+  width: 100%;
+  height: 100%;
+  background-color: #2f5d62;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/*topnav children*/
+.topnav > div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+/* settings of log out icon */
+.box {
+  width: 175px;
+  height: 90px;
+  opacity: 0.75;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a:hover, a:active, a:visited, a:link {
+  text-decoration: none;
+}
+
+
+.box:not(.welcome):hover {
+  opacity: 1;
+  cursor: pointer;
+  height: 90px;
+}
+/* margin of icon */
+.box .icon {
+  display: block;
+  margin: 0 auto;
+}
+
+/* letters size and format */
+.box .text {
+  text-align: center;
+  font-family: "Staatliches", cursive;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+
+.logout-box {
+  height: 100%;
+  position: relative;
+  float: right;
+}
+
+/* colour of letters when mouse is not on them */
+.menu-link:visited {
+  color: white;
+}
+
+/* colour of letters when mouse is on */
+.menu-link:active {
+  color: white;
+}
+

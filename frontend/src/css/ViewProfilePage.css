@@ -1,0 +1,14 @@
+.container_profile {
+    float: left;
+    margin-left: 40px;
+    margin-top: 20px;
+    color: #2f5d62;
+    font-size: 1.8rem;
+    height: 50%;
+}
+.container_profile h2{
+    margin: 0;
+}
+.hover_pointer{
+    cursor: pointer;
+}

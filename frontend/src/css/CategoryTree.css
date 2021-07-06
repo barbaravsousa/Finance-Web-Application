@@ -1,0 +1,18 @@
+.tree-container{
+    width: 100%;
+    color: red;
+}
+
+.tree{
+    width: 500px;
+    margin: 0 auto;
+    color: black;
+    font-size: 30px;
+}
+
+MuiTypography-body1. {
+    font-size: 4rem;
+}
+
+
+

@@ -1,0 +1,67 @@
+package switchtwentytwenty.project.dto.indto;
+
+import lombok.Getter;
+import lombok.Setter;
+
+public class PaymentInDTO {
+
+    //Attributes
+    @Getter
+    @Setter
+    private String personID;
+    @Setter
+    @Getter
+    private String designation;
+    @Setter
+    @Getter
+    private String categoryID;
+    @Setter
+    @Getter
+    private double amount;
+    @Setter
+    @Getter
+    private String date;
+
+
+    //Builder Inner Class
+    public static class PaymentDTOBuilder {
+        //Builder attributes
+        private final PaymentInDTO dto;
+
+        public PaymentDTOBuilder() {
+            this.dto = new PaymentInDTO();
+        }
+
+        public PaymentInDTO.PaymentDTOBuilder withPersonID(String id) {
+            dto.setPersonID(id);
+            return this;
+        }
+
+        public PaymentInDTO.PaymentDTOBuilder withDesignation(String designation) {
+            dto.setDesignation(designation);
+            return this;
+        }
+
+        public PaymentInDTO.PaymentDTOBuilder withAmount(double amount) {
+            dto.setAmount(amount);
+            return this;
+        }
+
+        public PaymentInDTO.PaymentDTOBuilder withDate(String date) {
+            dto.setDate(date);
+            return this;
+        }
+
+        public PaymentInDTO.PaymentDTOBuilder withCategoryID(String categoryID) {
+            dto.setCategoryID(categoryID);
+            return this;
+        }
+
+        public PaymentInDTO build() {
+            return this.dto;
+
+        }
+    }
+
+
+}

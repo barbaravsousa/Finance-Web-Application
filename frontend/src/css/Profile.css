@@ -1,0 +1,8 @@
+.profile {
+    align-items: center;
+    justify-content: center;
+    /* border: solid 2px #DDEEEE; */
+    border-bottom: solid 2px #dce0e2;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+}

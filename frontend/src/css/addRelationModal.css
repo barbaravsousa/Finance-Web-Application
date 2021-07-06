@@ -1,0 +1,282 @@
+.modal-cover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    transform: translateZ(0);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-area {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 2.5em 1.5em 1.5em 1.5em;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+@media screen and (min-width: 500px) {
+    /* Center the Modal! */
+    .modal-area {
+        left: 50%;
+        top: 50%;
+        height: auto;
+        transform: translate(-50%, -50%);
+        max-width: 30em;
+        max-height: calc(100% - 1em);
+    }
+}
+
+._modal-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.5em;
+    line-height: 1;
+    background: #f6f6f7;
+    border: 0;
+    cursor: pointer;
+}
+
+._modal-close-icon {
+    width: 25px;
+    height: 25px;
+    fill: transparent;
+    stroke: black;
+    stroke-linecap: round;
+    stroke-width: 2;
+}
+
+.modal-body {
+    padding-top: 0.25em;
+}
+._hide-visual {
+    border: 0 !important;
+    clip: rect(0 0 0 0) !important;
+    height: 1px !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+    white-space: nowrap !important;
+}
+
+.scroll-lock {
+    overflow: hidden;
+    margin-right: 17px;
+}
+
+.formName {
+    display: flex;
+    color: #1E2462;
+    justify-content: left;
+    margin-left: 33vw;
+    position: relative;
+}
+
+.formInputNewRelation {
+    width: 50% !important;
+}
+
+.forms__button-add {
+    background-color: #66be8d;
+    font: lighter 15px Montserrat, sans-serif;
+    border: none;
+    color: white;
+    padding: 3px 10px;;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+}
+
+.forms__button-reset {
+    background-color: #63736a;
+    font: lighter 15px Montserrat, sans-serif;
+    border: none;
+    color: white;
+    padding: 3px 10px;;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+}
+
+.forms__button-submit {
+    background-color: #66be8d;
+    font: 16px Montserrat, sans-serif;
+    border: solid 1px #3d7258;
+    border-radius: 3px;
+    color: #ffffff;
+    padding: 6px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5% 35%;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 12px 0 rgb(179, 177, 177), 0 6px 20px 0 rgba(177, 173, 173, 0.19);
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+
+.formFields {
+    text-align: center;
+}
+
+.input-fields__relation-form {
+    width: 30%;
+    padding: 4px 12px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+
+}
+
+.formFields__relation-type {
+    width: 30%;
+    padding: 4px 12px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+
+.forms__button-add-relation__submit,
+.forms__button-new-relation__submit {
+    background-color: #66be8d;
+    font: 16px Montserrat, sans-serif;
+    border: solid 1px #3d7258;
+    border-radius: 3px;
+    color: #ffffff;
+    padding: 6px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 12px 0 rgb(179, 177, 177), 0 6px 20px 0 rgba(177, 173, 173, 0.19);
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+
+.forms__button-add-relation__submit {
+    margin: 1% 35%;
+}
+
+.forms__button-new-relation__submit {
+    margin: 2% 35%;
+    font-family: "Staatliches", cursive;
+    font-size: 15px;
+    border: solid 3px white;
+    border-radius: 5px;
+    font-size: 27px;
+    width: 500px;
+    height: 40px;
+    color: #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+}
+
+#container {
+   width: 100%;
+   height: 370px;
+   display: -moz-grid-line;
+
+    
+}
+
+#divForForm{
+    
+    box-align: right; 
+    float: left; 
+    display: flex;
+   padding-top: 60px;
+   padding-left: 65px;
+    width: 50%; 
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    
+}
+
+#tablediv{
+    
+    box-align: left;
+    
+    width: 50%;   
+    height: 100%;
+    float: left;
+
+}
+
+#families-table{
+    width: 100%;
+    box-align: left;
+    margin-left: 112px;
+    display: inline-block;    
+}
+
+#spaceDiv{
+    width: 100%;
+    height: 20px;
+}
+
+#addRelation{
+    padding-left: 15px;
+    float: left;
+    margin-top: 10px;
+    
+}
+
+#divForButton {
+    width: 30%;
+    padding-top: 50px;
+    padding-left: 125px;
+    height: 50px;
+}
+
+#userRelations {
+    width: 580px;
+    padding-left: 10px;
+}
+
+#tdForRelation {
+  border-bottom: transparent;
+  padding-left: 14px;
+}
+
+.relation-form {
+    margin-top: -15px;
+}
+
+.error-relations {
+    margin-top: 20px;
+    font-size: 14px !important;
+    text-align: center !important;
+    margin-left: 0 !important;
+}

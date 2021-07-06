@@ -1,0 +1,25 @@
+#paymentModalContainer {
+    top: 15%;
+    left: 32%;
+    width: 650px;
+    height: 500px !important;
+    padding: 16px 32px 24px;
+    position: fixed;
+    background-color: #fff;
+}
+
+.paymentFormDateInput,
+.paymentFormAmountInput {
+    width: 50% !important;
+}
+
+.paymentFormDateInput {
+    margin-top: 25px !important;
+}
+
+.labelDate {
+    margin-top: 20px;
+    margin-right: -37px;
+    font-size: 1rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}

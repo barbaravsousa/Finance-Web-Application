@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+.text2 {
+  color: black;
+  width: 100%;
+  padding: 0 0 10px 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+
+.welcome {
+  color: rgb(50, 50, 50);
+  text-align: right;
+  padding: 5px;
+  font-size: 16px;
+  font-family: "Staatliches", cursive;
+}
+
+.welcome-content {
+  width: 500px;
+  line-height: 20px;
+}
+
+.title {
+  font-size: 50px;
+  font-family: "Staatliches", cursive;
+  color: #2f5d62;
+}
+
+.box-2 {
+  border: solid seagreen;
+}
+
+.paragraph {
+  position: absolute;
+  bottom: 70px;
+}
+
+.box-check {
+  float: left;
+  width: 150px;
+  height: 125px;
+  padding: 5px;
+  margin-right: 50px;
+  display: grid;
+  text-align: center;
+  border-radius: 20px;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+}
+
+.box-check:hover {
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.1);
+}
+
+.box-check img {
+  width: 48px;
+  margin: 0 auto 10px auto;
+}

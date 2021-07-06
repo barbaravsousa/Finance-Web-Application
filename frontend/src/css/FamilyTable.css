@@ -1,0 +1,108 @@
+.general_table {
+    overflow-x: auto; /* to have a responsive table */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 80%;
+}
+
+.families-table {
+    float: left;
+    width: 42%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: rgb(50, 50, 50);
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 60px;
+}
+
+.families-table__container {
+    width: 70pc;
+    height: 100pc;
+    align-items: center
+}
+
+.families-table thead th {
+    font-size: 35px;
+    color: rgb(50, 50, 50);
+    padding: 50px 80px 10px 10px;
+    z-index: 150;
+}
+
+.families-table thead tr th {
+    text-align: left;
+}
+
+.families-table tbody td {
+    justify-content: center;
+    border-bottom: solid 2px #dce0e2;
+    color: rgb(50, 50, 50);
+    padding: 10px 40px 10px 40px;
+}
+
+.families-info__button {
+    background-color: #66be8d;
+    font-family: "Staatliches", cursive;
+    width: 75px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 10px 10px 10px 0;
+    border: 1px solid #66be8d;
+    color: white;
+    cursor: pointer;
+    margin: 0 0 0 15px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+
+}
+
+.families-info__button:hover {
+    cursor: pointer;
+    color: rgb(50, 50, 50);
+}
+
+.families-name {
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    padding-left: 15px;
+    padding-top: 7.5px;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    z-index: 150;
+}
+
+.profile {
+    width: 300px;
+    background-color: white;
+    padding: 5px;
+    text-align: left;
+}
+
+.profile ul {
+    padding: 0;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.form_container {
+    width: 70pc;
+    height: 100pc;
+    align-items: center;
+}
+.table-title{
+    color: #2f5d62;
+    font-size: 1.8rem;
+    margin-left: 40px;
+    margin-top: -15px;
+}

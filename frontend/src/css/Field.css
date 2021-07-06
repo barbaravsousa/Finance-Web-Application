@@ -1,0 +1,20 @@
+.field_label {
+    font-size: 15px;
+    margin-right: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.field-container {
+    width: 100px;
+    height: 80px;
+}
+
+.field-error-form {
+    margin-top: -5px;
+    margin-left: 10px;
+    width: 300px;
+    text-align: left;
+    font-size: 10px;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

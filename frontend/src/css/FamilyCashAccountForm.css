@@ -1,0 +1,11 @@
+.errorMessage{
+    color: #ef1616;
+    font: 11px Verdana;
+    text-align: left;
+    margin-left: 27%;
+    margin-top: 1%;
+}
+
+.block_one_familyAccount{
+    margin-top: 50px;
+}

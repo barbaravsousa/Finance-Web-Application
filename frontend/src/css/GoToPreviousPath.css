@@ -1,0 +1,22 @@
+.previous {
+    margin-top: 55px;
+    margin-left: 10px;
+    position:fixed;
+    border: none;
+    background-color:#f5f5f5;
+  }
+
+  .previous img{
+    width: 40px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .previous img:hover {
+    width: 48px;
+  }
+  
+  
+  
