@@ -11,7 +11,7 @@ This project was developed with:
 
               -> Glória Ferreira;
               
-              -> Jorge Diogo;
+              -> Jorge Diogo (@jdiogo95);
               
               -> Márcia Guedes;
               
